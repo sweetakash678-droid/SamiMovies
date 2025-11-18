@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Sami 4K Movies</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body {
+    margin:0;
+    font-family: Arial, sans-serif;
+    background-color:#000;
+    color:#fff;
+}
+header {
+    background: rgba(20,20,20,0.9);
+    padding:20px;
+    text-align:center;
+    font-size:36px;
+    font-weight:bold;
+    font-family: 'Bebas Neue', cursive;
+}
+section {
+    padding:20px;
+}
+.movies-row {
+    display:flex;
+    overflow-x:auto;
+    padding:10px 0;
+    gap:15px;
+}
+.movie-card {
+    position:relative;
+    min-width:220px;
+    height:330px;
+    border-radius:10px;
+    overflow:hidden;
+    flex-shrink:0;
+    background:#222;
+    transition: transform 0.3s;
+}
+.movie-card:hover {
+    transform: scale(1.05);
+}
+.movie-card img {
+    width:220px;
+    height:330px;
+    object-fit:cover;
+}
+.overlay {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+    color:#fff;
+    padding:10px;
+    box-sizing:border-box;
+}
+.overlay h3 {
+    margin:0 0 5px 0;
+    font-size:16px;
+}
+.overlay a {
+    display:inline-block;
+    margin-right:6px;
+    padding:5px 10px;
+    background:#0af;
+    color:#111;
+    text-decoration:none;
+    border-radius:4px;
+    font-size:12px;
+}
+.overlay .coming-soon {
+    background:#888;
+    cursor:default;
+    color:#fff;
+}
+footer {
+    background: rgba(20,20,20,0.9);
+    text-align:center;
+    padding:15px;
+    margin-top:20px;
+}
+footer a { color:#0af; text-decoration:none; }
+</style>
+</head>
+<body>
+
+<header>Sami 4K Movies</header>
+
+<section>
+<h2>Doraemon Movies</h2>
+<div class="movies-row">
+
+<div class="movie-card">
+  <img src="https://i.pinimg.com/736x/6c/ff/e0/6cffe03c74205bfa9d1dae565266e85f.jpg" alt="Doraemon: Nobita's Little Space War">
+  <div class="overlay">
+    <h3>Doraemon: Nobita's Little Space War (1985)</h3>
+    <a href="https://drive.google.com/file/d/1oDHgkgbN1_O8PNNKwL5ZPP_TYYxOls7d/view" target="_blank">Watch</a>
+    <a href="https://drive.google.com/file/d/1oDHgkgbN1_O8PNNKwL5ZPP_TYYxOls7d/view" target="_blank">Download</a>
+  </div>
+</div>
+
+<div class="movie-card">
+  <img src="https://images.justwatch.com/poster/321402779/s718/eiga-doraemon-nobita-no-chikyu-symphony.jpg" alt="Doraemon: Nobita’s Earth Symphony">
+  <div class="overlay">
+    <h3>Doraemon: Nobita’s Earth Symphony (2024)</h3>
+    <a href="https://drive.google.com/file/d/1N4V_DkXqaPVjAqvbWK5dMJMNjj_pKU4b/view?usp=drive_link" target="_blank">Watch</a>
+    <a href="https://drive.google.com/file/d/1N4V_DkXqaPVjAqvbWK5dMJMNjj_pKU4b/view?usp=drive_link" target="_blank">Download</a>
+  </div>
+</div>
+
+</div>
+</section>
+
+<section>
+<h2>Coming Soon Movies</h2>
+<div class="movies-row">
+
+<div class="movie-card">
+  <img src="https://tse2.mm.bing.net/th/id/OIP.jFWga73Vye9w2gQvqWJX6gHaLH?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Spider-Man: Across the Spider-Verse">
+  <div class="overlay">
+    <h3>Spider-Man: Across the Spider-Verse (28 Nov 2025)</h3>
+    <a class="coming-soon">Coming Soon</a>
+    <a href="https://www.youtube.com/watch?v=JfVOs4VSpmA" target="_blank" style="background:#f00;">Watch Trailer</a>
+  </div>
+</div>
+
+<div class="movie-card">
+  <img src="https://tse2.mm.bing.net/th/id/OIP.Bs9SDNTjqszobuQ-20OP_wHaJ4?rs=1&pid=ImgDetMain&o=7&rm=3" alt="The Flash">
+  <div class="overlay">
+    <h3>The Flash (23 Dec 2025)</h3>
+    <a class="coming-soon">Coming Soon</a>
+    <a href="https://www.youtube.com/watch?v=ZpVgFSu0YvI" target="_blank" style="background:#f00;">Watch Trailer</a>
+  </div>
+</div>
+
+<div class="movie-card">
+  <img src="https://static1.srcdn.com/wordpress/wp-content/uploads/2023/05/mission-impossible-dead-reckoning-poster.jpg" alt="Mission: Impossible – Dead Reckoning Part One">
+  <div class="overlay">
+    <h3>Mission: Impossible – Dead Reckoning Part One (12 Jul 2025)</h3>
+    <a class="coming-soon">Coming Soon</a>
+    <a href="https://www.youtube.com/watch?v=wb49-oV0F78" target="_blank" style="background:#f00;">Watch Trailer</a>
+  </div>
+</div>
+
+<div class="movie-card">
+  <img src="https://tse4.mm.bing.net/th/id/OIP.Z3UMZ7bPJoINHzRM6ZdoSwHaEK?w=1280&h=720&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Barbie">
+  <div class="overlay">
+    <h3>Barbie (21 Jul 2025)</h3>
+    <a class="coming-soon">Coming Soon</a>
+    <a href="https://www.youtube.com/watch?v=ey9mXUrsdh8" target="_blank" style="background:#f00;">Watch Trailer</a>
+  </div>
+</div>
+
+<div class="movie-card">
+  <img src="https://tse2.mm.bing.net/th/id/OIP.fZoBEzk6so-Pj033wxwmNwHaLH?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Oppenheimer">
+  <div class="overlay">
+    <h3>Oppenheimer (21 Jul 2025)</h3>
+    <a class="coming-soon">Coming Soon</a>
+    <a href="https://www.youtube.com/watch?v=8iPEnn-ltC8" target="_blank" style="background:#f00;">Watch Trailer</a>
+  </div>
+</div>
+
+<div class="movie-card">
+  <img src="https://tse1.mm.bing.net/th/id/OIP.fgnO_l70Y8r5DiCDy70rlwHaLH?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Transformers: Rise of the Beasts">
+  <div class="overlay">
+    <h3>Transformers: Rise of the Beasts (9 Jun 2025)</h3>
+    <a class="coming-soon">Coming Soon</a>
+    <a href="https://www.youtube.com/watch?v=R7xSyrpge28" target="_blank" style="background:#f00;">Watch Trailer</a>
+  </div>
+</div>
+
+<div class="movie-card">
+  <img src="https://tse4.mm.bing.net/th/id/OIP.volYDgOkQRWQbYyGj5RHHAHaKl?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Guardians of the Galaxy Vol. 3">
+  <div class="overlay">
+    <h3>Guardians of the Galaxy Vol. 3 (5 May 2025)</h3>
+    <a class="coming-soon">Coming Soon</a>
+    <a href="https://www.youtube.com/watch?v=QwievZ1Tx-8" target="_blank" style="background:#f00;">Watch Trailer</a>
+  </div>
+</div>
+
+<div class="movie-card">
+  <img src="https://tse2.mm.bing.net/th/id/OIP.kX7ZN6-LbFJNkD7hUFG3CQHaK9?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Indiana Jones and the Dial of Destiny">
+  <div class="overlay">
+    <h3>Indiana Jones and the Dial of Destiny (30 May 2025)</h3>
+    <a class="coming-soon">Coming Soon</a>
+    <a href="https://www.youtube.com/watch?v=qC2xOXFQZuw" target="_blank" style="background:#f00;">Watch Trailer</a>
+  </div>
+</div>
+
+</div>
+</section>
+
+<footer>
+  © 2025 Sami 4K Movies — All Rights Reserved<br>
+  Contact: <a href="mailto:mspkwork76@gmail.com">mspkwork76@gmail.com</a>
+</footer>
+
+</body>
+</html>
